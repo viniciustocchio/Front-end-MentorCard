@@ -1,0 +1,33 @@
+body {
+    width: 1440px;
+    background: hsl(233, 47%, 7%);
+}
+
+.main-image {
+    width: 35%;
+    
+} 
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+ul {
+    color: white;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
