@@ -14,7 +14,7 @@ main {
 }
 
 .main-image {
-    width: 35%;  
+    width: 25%;  
 } 
 
 h1 {
@@ -27,19 +27,25 @@ h1 {
 p {
     color: white;
     font-family: 'Inter', sans-serif;
-    font-size: 11pt;
+    font-size: 1em;
     font-weight: 200;
 }
 
 ul {
     color: white;
+    list-style: none;
+    padding: 0;
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 1em; 
     text-align: center; 
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+.list span {
+    font-size: 1.2em;
 }
