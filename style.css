@@ -1,9 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
 body {
     width: 1440px;
     background: hsl(233, 47%, 7%)
 }
 
-main {
+.card-container {
+    background: brown;
+    padding: 100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-image {
+    height: 310px;
+    vertical-align: middle;
+    border-radius: 0 10px 10px 0;
+}
+
+.left-box {
     display: inline-block;
     margin-left: 10%;
     max-width: 500px;
@@ -13,8 +33,11 @@ main {
     border-radius: 10px 0 0 10px;  
 }
 
-.main-image {
-    width: 25%;  
+.right-box {
+    width: auto;
+    vertical-align: bottom;
+    background: #A85EDB;
+    display: inline-block;
 } 
 
 h1 {
@@ -22,6 +45,10 @@ h1 {
     font-weight: 700;
     font-size: 26pt;
     color: white;
+}
+
+main h1 span {
+    color: #A85EDB;
 }
 
 p {
@@ -48,4 +75,12 @@ ul {
 
 .list span {
     font-size: 1.2em;
+}
+
+footer {
+    margin: 100px auto;
+}
+
+.attribution {
+    color: aliceblue;
 }
