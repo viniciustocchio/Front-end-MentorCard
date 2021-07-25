@@ -19,6 +19,7 @@ body {
 
 .main-image {
     height: 310px;
+    filter: opacity(0.4);
     vertical-align: middle;
     border-radius: 0 10px 10px 0;
 }
@@ -36,8 +37,9 @@ body {
 .right-box {
     width: auto;
     vertical-align: bottom;
-    background: #A85EDB;
+    background: #663985;
     display: inline-block;
+   
 } 
 
 h1 {
