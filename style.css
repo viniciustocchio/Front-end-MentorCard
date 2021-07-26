@@ -6,47 +6,39 @@
   }
 
 body {
-    width: 1440px;
-    background: hsl(233, 47%, 7%)
+    width: 1340px;
+    background: hsl(243, 47%, 7%)
 }
 
-.card-container {
-    background: brown;
-    padding: 100px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.main-image {
-    height: 310px;
-    filter: opacity(0.4);
-    vertical-align: middle;
-    border-radius: 0 10px 10px 0;
+.flex-container {
+    display: flex;
+    margin: 130px 200px;
 }
 
 .left-box {
-    display: inline-block;
-    margin-left: 10%;
-    max-width: 500px;
-    margin-top: 100px;
     background-color: hsl(244, 38%, 16%);
     padding: 50px;
     border-radius: 10px 0 0 10px;  
 }
 
 .right-box {
-    width: auto;
-    vertical-align: bottom;
     background: #663985;
-    display: inline-block;
-   
+    height: 380px;
+    border-radius: 0 10px 10px 0;
 } 
+
+.main-image {
+    height: 380px;
+    filter: opacity(0.4);
+    border-radius: 0 10px 10px 0;
+}
 
 h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 26pt;
     color: white;
+    margin-bottom: 28px;   
 }
 
 main h1 span {
@@ -56,14 +48,17 @@ main h1 span {
 p {
     color: white;
     font-family: 'Inter', sans-serif;
-    font-size: 1em;
+    font-size: 15px;
     font-weight: 200;
+    word-spacing: 1.2px;
+    line-height: 23px;
+    margin-bottom: 40px;
 }
 
 ul {
     color: white;
     list-style: none;
-    padding: 0;
+    display: flex;
 }
 
 .attribution { 
