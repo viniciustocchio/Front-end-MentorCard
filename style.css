@@ -22,7 +22,7 @@ body {
 }
 
 .right-box {
-    background: #663985;
+    background: #67108a;
     height: 380px;
     border-radius: 0 10px 10px 0;
 } 
@@ -71,7 +71,20 @@ ul {
 }
 
 .list span {
-    font-size: 1.2em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.list {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 100;
+    letter-spacing: 2px; 
 }
 
 footer {
