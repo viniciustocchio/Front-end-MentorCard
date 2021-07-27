@@ -12,23 +12,23 @@ body {
 
 .flex-container {
     display: flex;
-    margin: 130px 200px;
+    margin: 200px 100px;
 }
 
 .left-box {
     background-color: hsl(244, 38%, 16%);
-    padding: 50px;
+    padding: 70px;
     border-radius: 10px 0 0 10px;  
 }
 
 .right-box {
     background: #67108a;
-    height: 380px;
+    height: 430px;
     border-radius: 0 10px 10px 0;
 } 
 
 .main-image {
-    height: 380px;
+    height: 430px;
     filter: opacity(0.4);
     border-radius: 0 10px 10px 0;
 }
@@ -38,7 +38,8 @@ h1 {
     font-weight: 700;
     font-size: 26pt;
     color: white;
-    margin-bottom: 28px;   
+    margin-bottom: 28px;
+    letter-spacing: 1px;   
 }
 
 main h1 span {
@@ -52,7 +53,7 @@ p {
     font-weight: 200;
     word-spacing: 1.2px;
     line-height: 23px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 ul {
@@ -70,21 +71,21 @@ ul {
     color: hsl(228, 45%, 44%); 
 }
 
-.list span {
+.list li span {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 2.2em;
+    margin-bottom: 8px;
     display: block;
     text-transform: uppercase;
+    margin-right: 100px;
 }
 
 .list {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     text-transform: uppercase;
-    font-size: 0.7em;
-    font-weight: 100;
-    letter-spacing: 2px; 
+    word-spacing: 4px;
+    font-size: 0.6em;
 }
 
 footer {
