@@ -12,7 +12,14 @@ body {
 
 .flex-container {
     display: flex;
-    margin: 200px 100px;
+}
+
+.flex-list {
+    display: flex;
+}
+
+main {
+    margin: 200px 150px;
 }
 
 .left-box {
